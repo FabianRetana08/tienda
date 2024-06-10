@@ -12,7 +12,7 @@ body{
     background: bisque;
 }
 
-header{
+.header{
     position:fixed;
     background-color: blue;
     top: 0;
@@ -22,7 +22,7 @@ header{
     
 }
 
-aside{
+.aside{
     position: fixed;
     background-color: aquamarine;
     top: 80px;
@@ -33,7 +33,7 @@ aside{
 aside h2{
     color: red;
 }
-section{
+.section{
     overflow-y: scroll;
     position: fixed;
     background-color: bisque;
@@ -83,4 +83,42 @@ body tr:nth-child(even){
     background-color:gray;
     color: black;
     
+}
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90 px
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+    
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    argin-right: 40 px;
+    list-style:none;
+    
+}
+.nav-menu_item{
+    padding: 8px 12px;
+    bolder-radius:10px;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.nav-menu-link:hover{
+    backgroun-color: #024070;
+    transition: 0.5s;
 }
